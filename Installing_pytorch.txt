@@ -1,0 +1,11 @@
+1) install or update conda
+	conda update -c conda-forge conda
+
+2) install or update pytorch
+	https://pytorch.org/
+	
+3) set pytorch_env
+
+4) set spyder_env
+
+5) start spyder and got to Tools-->Preferences-->Python interpreter--> "Use the following Python interpreter" and set to pytorch_env

@@ -1,0 +1,6 @@
+- run different processes in paralell (each with a different parameter setting), each on a different GPU, instead of running one process on all GPUs --> parallelize parameter search
+- run GPU or other parameters you want to test, as argument from the console (by argparse in the script)
+
+runfile('main_with_config.py',args='--use_gpu_num "2"') for spyder console
+
+always save everything is .py
